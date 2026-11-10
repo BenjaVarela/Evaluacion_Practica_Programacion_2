@@ -21,7 +21,7 @@ def listar_equipos():
         if not equipos:
             print("No hay equipos registrados en la base de datos.")
             return
-        
+
         for e in equipos:
             print(f"ID: {e.equipo_id} | Nombre: {e.nombre} | Tipo: {e.tipo} | Stock: {e.stock_disponible}")
 
